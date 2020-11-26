@@ -1,0 +1,9 @@
+.places {
+    border: 1px solid red;
+    width: 984px;
+    height: 3392px;
+    margin: 92px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

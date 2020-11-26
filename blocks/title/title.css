@@ -1,0 +1,10 @@
+.title {
+    width: 720px;
+    height: 200px;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 auto 32px;
+    border: 1px solid red;
+}

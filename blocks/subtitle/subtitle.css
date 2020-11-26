@@ -1,0 +1,11 @@
+.subtitle {
+    width: 640px;
+    height: 72px;
+    margin: 0 auto 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid red;
+}

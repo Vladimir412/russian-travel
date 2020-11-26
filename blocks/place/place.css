@@ -1,0 +1,13 @@
+.place {
+    width: 984px;
+    height: 660px;
+    border: 1px solid red;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.place:nth-last-child(1) {
+    margin-bottom: 0;
+}
