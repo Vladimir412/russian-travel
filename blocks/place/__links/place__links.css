@@ -1,7 +1,5 @@
 .place__links {
-  border: 1px solid red;
-  margin-top: 106px;
-  margin-right: 28px;
+  border: 1px solid white;
   width: 456px;
   height: 46px;
   font-family: Suisse Intl;
@@ -10,4 +8,7 @@
   font-size: 15px;
   line-height: 18px;
   color: #FFFFFF;
+  position: absolute;
+  top: 106px;
+  right: 0;
 }

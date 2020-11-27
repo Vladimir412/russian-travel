@@ -1,11 +1,15 @@
 .place__text {
   border: 1px solid red;
-  margin-top: 48px;
+  margin-top: 0;
   margin-bottom: 26px;
-  width: 484px;
+  width: 456px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
+}
+
+.place__text:last-child {
+  margin-bottom: 0;
 }

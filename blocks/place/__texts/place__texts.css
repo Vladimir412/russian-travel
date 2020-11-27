@@ -1,0 +1,6 @@
+.place__texts {
+    border: 1px solid white;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}

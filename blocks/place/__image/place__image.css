@@ -1,4 +1,8 @@
 .place__image {
+  width: 440px;
+  height: 440px;
   object-fit: contain;
-
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

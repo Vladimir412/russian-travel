@@ -1,7 +1,8 @@
 .page {
-    margin: 0%;
+    min-width: 1280px;
+    margin: auto;
     padding: 28px 48px 24px;
     background-color: #2A2C2F;
     color: white;
-    min-width: 1280px;
+    font-family: inter;
 }
