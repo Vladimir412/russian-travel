@@ -1,9 +1,11 @@
 .place__text {
-    border: 1px solid red;
-    width: 484px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 163%;
+  border: 1px solid red;
+  margin-top: 48px;
+  margin-bottom: 26px;
+  width: 484px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
 }

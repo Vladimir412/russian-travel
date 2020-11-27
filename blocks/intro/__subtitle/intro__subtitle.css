@@ -1,8 +1,9 @@
 .intro__subtitle {
-    border: 1px solid red;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
 }

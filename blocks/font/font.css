@@ -1,0 +1,11 @@
+@font-face {
+  src: url('../../font-face/Desktop/Inter-Black.ttf') format('truetype');
+  font-family: inter;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url('../../font-face/Desktop/Inter-Regular.ttf') format('truetype');
+  font-family: inter;
+  font-weight: normal;
+}

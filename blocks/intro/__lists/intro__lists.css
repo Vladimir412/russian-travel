@@ -1,3 +1,6 @@
 .intro__lists {
-    border: 1px solid red;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 33px;
 }
