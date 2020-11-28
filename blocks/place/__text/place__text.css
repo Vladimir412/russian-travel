@@ -2,7 +2,7 @@
   border: 1px solid red;
   margin-top: 0;
   margin-bottom: 26px;
-  width: 456px;
+  width: 484px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -12,4 +12,11 @@
 
 .place__text:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .place__text {
+    margin-bottom: 27px;
+    width: 456px;
+  }
 }

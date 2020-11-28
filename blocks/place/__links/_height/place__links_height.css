@@ -1,0 +1,10 @@
+.place__links_height {
+  top: 30px;
+  right: 28px;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .place__links_height {
+    right: 0;
+  }
+}

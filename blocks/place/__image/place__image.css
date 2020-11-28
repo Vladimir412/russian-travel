@@ -1,8 +1,19 @@
 .place__image {
-  width: 440px;
-  height: 440px;
+  width: 460px;
+  height: 460px;
   object-fit: contain;
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }

@@ -7,3 +7,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+    .places {
+        width: 928px;
+    }
+}

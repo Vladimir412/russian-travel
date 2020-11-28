@@ -1,8 +1,17 @@
 .page {
-    min-width: 1280px;
-    margin: auto;
-    padding: 28px 48px 24px;
-    background-color: #2A2C2F;
-    color: white;
-    font-family: inter;
+  min-width: 1280px;
+  margin: auto;
+  padding: 28px 48px 24px;
+  background-color: #2A2C2F;
+  color: white;
+  font-family: inter;
 }
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .page {
+    min-width: 1024px;
+    margin: auto;
+    padding: 28px 0 24px;
+  }
+}
+

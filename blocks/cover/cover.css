@@ -1,8 +1,19 @@
 .cover {
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   border: 1px solid red;
   display: flex;
   position: relative;
   margin: 92px auto;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .cover {
+    max-width: 1024px;
+    height: 640px;
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+    margin: 92px auto;
+  }
 }

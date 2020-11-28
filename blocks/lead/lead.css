@@ -1,9 +1,21 @@
 .lead {
-    width: 984px;
-    height: 1005px;
+  max-width: 984px;
+  height: 1005px;
+  margin: 56px auto 92px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .lead {
+    max-width: 928px;
+    height: 962px;
     margin: 56px auto 92px;
     border: 1px solid white;
     display: flex;
     flex-direction: column;
-    position: relative;
+    
+  }
 }

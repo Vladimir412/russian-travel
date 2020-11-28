@@ -4,3 +4,9 @@
   height: 429px;
   margin: 92px 442px 92px 148px;
 }
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
