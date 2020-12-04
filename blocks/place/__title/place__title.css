@@ -11,7 +11,7 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .place__title {
-    width: 440PX;
+    width: 440px;
     line-height: 74px;
   }
 }
