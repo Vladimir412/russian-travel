@@ -6,3 +6,9 @@
   line-height: 16px;
   margin: 0;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .footer__copyright {
+    width: 186px;
+  }
+}

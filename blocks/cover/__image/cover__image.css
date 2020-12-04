@@ -1,29 +1,31 @@
-.place__image {
-  width: 460px;
-  min-height: 460px;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  object-fit: contain;
+.cover__image {
+  width: 100%;
+  min-height: 740px;
+  opacity: 0.8;
+}
+
+.cover__image:hover {
+  opacity: 0.3;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
-  .place__image {
+  .cover__image {
     width: 100%;
-    min-height: 440px;
+    min-height: 640px;
+    object-fit: contain;
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .place__image {
+  .cover__image {
     width: 100%;
-    min-height: 340px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .place__image {
+  .cover__image {
     width: 100%;
-    min-height: 320px;
-    object-fit: contain;
+    min-height: 200px;
   }
 }

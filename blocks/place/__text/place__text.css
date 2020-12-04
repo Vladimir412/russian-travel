@@ -1,22 +1,40 @@
 .place__text {
-  border: 1px solid red;
-  margin-top: 0;
   margin-bottom: 26px;
-  width: 484px;
+  margin-top: 0;
+  width: 100%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
 }
 
-.place__text:last-child {
+p:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .place__text {
     margin-bottom: 27px;
-    width: 456px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .place__text {
+    width: 100%;
+    min-height: 110px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .place__text {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 163%;
   }
 }

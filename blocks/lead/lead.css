@@ -1,21 +1,37 @@
 .lead {
   max-width: 984px;
-  height: 1005px;
-  margin: 56px auto 92px;
-  border: 1px solid white;
+  min-height: 1005px;
+  margin: 57px auto 0;
+  margin-bottom: 93px;
   display: flex;
   flex-direction: column;
-  
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .lead {
-    max-width: 928px;
-    height: 962px;
-    margin: 56px auto 92px;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    
+    width: 90%;
+    margin: calc(100vw - 90% - (48px));
+    min-height: 962px;
+    margin-top: 48px;
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .lead {
+    width: 100%;
+    min-height: 862px;
+    margin: 0;
+    margin-top: 48px;
+    margin-bottom: 89px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .lead {
+    width: 100%;
+    min-height: 406px;
+    margin-top: 40px;
+    margin-bottom: 63px;
   }
 }

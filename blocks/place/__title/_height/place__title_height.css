@@ -1,9 +1,0 @@
-.place__title_height {
-    height: 76px;
-}
-
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
-    .place__title_height {
-        height: 76PX;
-    }
-}

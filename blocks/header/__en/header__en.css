@@ -1,7 +1,20 @@
 .header__en {
+  font-size: 23px;
+  line-height: 28px;
   width: 30px;
   height: 28px;
   position: absolute;
-  top: 18px;
-  right: 0;
+  bottom: 4px;
+  right: -3px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .header__en {
+    font-size: 19px;
+    line-height: 24px;
+    bottom: 9px;
+    right: -8px;
+  }
 }

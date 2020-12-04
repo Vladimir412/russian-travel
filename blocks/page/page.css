@@ -1,7 +1,9 @@
 .page {
+  -webkit-font-smoothing: antialiased;
   min-width: 1280px;
-  margin: auto;
-  padding: 28px 48px 24px;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  margin: 0;
   background-color: #2A2C2F;
   color: white;
   font-family: inter;
@@ -9,9 +11,22 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .page {
+    /* width: 100%; */
     min-width: 1024px;
-    margin: auto;
-    padding: 28px 0 24px;
   }
 }
 
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .page {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .page {
+    min-width: 320px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+}

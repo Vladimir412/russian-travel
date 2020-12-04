@@ -1,12 +1,28 @@
 .intro {
-  border: 1px solid white;
-  width: 690px;
-  height: 429px;
-  margin: 92px 442px 92px 148px;
+  max-width: 690px;
+  margin-left: calc((100vw - 54%) - 442px);
+  margin-bottom: 92px;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .intro {
-    margin: 92px 286px 92px 48px;
+    width: 67%;
+    margin-left: calc(100vw - 67% - (298px));
+    margin-bottom: 98px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .intro {
+    width: 93%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .intro {
+    width: 90%;
+    margin: auto;
   }
 }
