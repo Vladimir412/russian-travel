@@ -15,14 +15,13 @@ p:last-child {
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .place__text {
+    min-width: 456px;
     margin-bottom: 27px;
-    width: 100%;
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .place__text {
-    width: 100%;
     min-height: 110px;
     font-size: 16px;
     line-height: 26px;

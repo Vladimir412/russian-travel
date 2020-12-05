@@ -2,11 +2,12 @@
   margin-top: 0;
   margin-bottom: 12px;
   max-width: 456px;
-  height: 12px;
+  min-height: 12px;
   font-size: 12px;
   line-height: 19px;
   padding-left: 2px;
   padding-top: 3px;
+  color: #AAAAAA;
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -18,6 +19,6 @@
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .place__url-heading {
-    width: 352px;
+    min-width: 352px;
   }
 }

@@ -1,0 +1,20 @@
+.header__lists {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 0;
+}
+
+.header__lists:first-child {
+    text-decoration: underline;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .header__lists {
+        margin-top: 0;
+        align-items: center;
+    }
+}

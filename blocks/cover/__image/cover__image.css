@@ -1,18 +1,22 @@
-.cover__image {
-  width: 100%;
+/* .cover__image {
+  width: 1184px;
   min-height: 740px;
-  opacity: 0.8;
 }
 
-.cover__image:hover {
-  opacity: 0.3;
+.cover__image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .cover__image {
     width: 100%;
     min-height: 640px;
-    object-fit: contain;
+    max-height: 740px;
   }
 }
 
@@ -27,5 +31,5 @@
   .cover__image {
     width: 100%;
     min-height: 200px;
-  }
+  } */
 }

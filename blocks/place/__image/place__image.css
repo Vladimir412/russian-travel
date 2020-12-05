@@ -1,29 +1,26 @@
 .place__image {
-  width: 460px;
+  width: 100%;
   min-height: 460px;
   grid-column: 1/2;
   grid-row: 2/3;
   object-fit: contain;
+
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .place__image {
-    width: 100%;
     min-height: 440px;
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .place__image {
-    width: 100%;
-    min-height: 340px;
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .place__image {
+      min-height: 340px;
+    }
   }
-}
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .place__image {
-    width: 100%;
-    min-height: 320px;
-    object-fit: contain;
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .place__image {
+      min-height: 320px;
+    }
   }
-}

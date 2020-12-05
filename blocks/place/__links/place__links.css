@@ -1,6 +1,6 @@
 .place__links {
-  width: 456px;
-  height: 46px;
+  width: 100%;
+  min-height: 46px;
   align-self: end;
 }
 
@@ -9,7 +9,6 @@
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .place__links {
-    width: 352px;
     grid-row: 1/2;
     grid-column: 2;
   }
