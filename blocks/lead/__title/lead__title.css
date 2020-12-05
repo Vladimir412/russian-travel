@@ -1,6 +1,5 @@
 .lead__title {
   width: 73%;
-  min-height: 200px;
   font-family: Inter;
   font-size: 96px;
   line-height: 100px;
@@ -25,7 +24,6 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .lead__title {
     width: 90%;
-    min-height: 88px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 15px;

@@ -1,5 +1,5 @@
 .places {
-  width: 76.8vw;
+  width: 984px;
   margin: 92px auto 0;
   display: grid;
   grid-template-columns: 1fr;
@@ -10,7 +10,7 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   .places {
-    width: 90.6vw;
+    width: 90.6%;
     margin-top: 94px;
     gap: 80px;
   }
@@ -18,7 +18,7 @@
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .places {
-    width: 93.7vw;
+    width: 93.7%;
     min-height: 2808px;
     margin-top: 90px;
     gap: 70px;
@@ -27,7 +27,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .places {
-    width: 100vw;
+    width: 100%;
     min-height: 4784px;
     margin-top: 64px;
     gap: 55px;

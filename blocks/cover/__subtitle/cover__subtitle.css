@@ -26,8 +26,8 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .cover__subtitle {
-      width: 266px;
-      min-height: 48px;
+    width: 266px;
+    min-height: 48px;
     font-size: 14px;
     line-height: 16px;
     top: 50px;
