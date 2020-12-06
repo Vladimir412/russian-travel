@@ -8,7 +8,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .header__lists {
     margin-top: 0;
     align-items: center;

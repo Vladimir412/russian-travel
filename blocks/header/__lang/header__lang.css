@@ -9,7 +9,7 @@
   opacity: 0.8;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .header__lang {
     font-size: 18px;
     line-height: 28px;

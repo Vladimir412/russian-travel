@@ -6,7 +6,7 @@
   line-height: 18px;
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .intro__list {
     line-height: 17px;
   }

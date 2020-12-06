@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 1184px;
+  max-width: 1184px;
   min-height: 671px;
   margin: 0 auto 0;
   display: grid;
@@ -9,7 +9,7 @@
 }
 
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .photo-grid {
     width: 90.6%;
     min-height: 942px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .photo-grid {
     width: 93.7%;
     min-height: 1664px;
@@ -32,7 +32,7 @@
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .photo-grid {
     width: 90%;
     min-height: 2724px;

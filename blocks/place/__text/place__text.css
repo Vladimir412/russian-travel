@@ -1,7 +1,7 @@
 .place__text {
   margin-bottom: 26px;
   margin-top: 0;
-  width: 100%;
+  max-width: 484px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -13,23 +13,24 @@ p:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .place__text {
     min-width: 456px;
     margin-bottom: 27px;
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .place__text {
+    min-width: 352px;
     font-size: 16px;
     line-height: 26px;
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .place__text {
-    width: 90%;
+    min-width: 320px;
     margin: auto;
     margin-bottom: 24px;
     font-size: 16px;

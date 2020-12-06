@@ -1,5 +1,5 @@
 .footer {
-  width: 1184px;
+  max-width: 1184px;
   margin: auto;
   margin-top: 94px;
   min-height: 18px;
@@ -8,13 +8,13 @@
   justify-content: space-between;
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .footer {
     width: 90.6%;
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .footer {
     width: 93.7%;
     margin-top: 86px;
@@ -22,7 +22,7 @@
 
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .footer {
     width: 58.1%;
     min-height: 310px;

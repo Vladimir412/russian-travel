@@ -8,7 +8,7 @@
   font-family: inter;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .page {
     padding-top: 16px;
     padding-bottom: 24px;

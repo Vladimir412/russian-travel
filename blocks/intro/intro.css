@@ -1,28 +1,28 @@
 .intro {
-  width: 690px;
+  width: 100%;
+  max-width: 690px;
   margin-left: calc((100vw - 54%) - 442px);
   margin-bottom: 90px;
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .intro {
-    width: 67.3%;
     margin-left: calc(100vw - 67% - (298px));
     margin-bottom: 98px;
     padding-right: 100px;
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .intro {
-    width: 93.7%;
+    min-width: 720px;
     margin: auto;
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .intro {
-    width: 90%;
+    min-width: 288px;
     margin: auto;
   }
 }

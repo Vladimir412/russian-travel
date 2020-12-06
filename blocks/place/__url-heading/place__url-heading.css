@@ -9,14 +9,15 @@
   color: #AAAAAA;
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .place__url-heading {
+    min-width: 352px;
     margin-bottom: 6px;
     line-height: 0px;
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .place__url-heading {
     min-width: 352px;
   }

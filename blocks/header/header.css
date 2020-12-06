@@ -1,5 +1,5 @@
 .header {
-  width: 1184px;
+  max-width: 1184px;
   min-height: 52px;
   margin: auto;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .header {
     width: 90.6%;
   }
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .header {
     width: 90%;
     min-height: 42px;
