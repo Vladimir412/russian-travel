@@ -1,14 +1,14 @@
 .intro {
   width: 100%;
   max-width: 690px;
-  margin-left: calc((100vw - 54%) - 442px);
-  margin-bottom: 90px;
+  margin-left: calc((100vw - 54%) - 452px);
+  margin-bottom: 96px;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .intro {
-    margin-left: calc(100vw - 67% - (298px));
-    margin-bottom: 98px;
+    margin-left: calc(100vw - 67% - (290px));
+    margin-bottom: 91px;
     padding-right: 100px;
   }
 }
@@ -22,7 +22,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .intro {
-    min-width: 288px;
+    width: 90%;
     margin: auto;
   }
 }

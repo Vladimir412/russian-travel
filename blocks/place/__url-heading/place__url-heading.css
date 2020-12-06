@@ -2,8 +2,10 @@
   margin-top: 0;
   margin-bottom: 12px;
   max-width: 456px;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 12px;
   line-height: 19px;
+  letter-spacing: 0.2em;
   padding-left: 2px;
   padding-top: 3px;
   color: #AAAAAA;

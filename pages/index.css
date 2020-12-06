@@ -1,5 +1,5 @@
 @import url(../vender/normalize.css);
-@import url(../blocks/font/font.css);
+@import url(../fonts/font.css);
 
 
 /*  page  */
@@ -12,7 +12,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lists/header__lists.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang/_theme/header__lang_theme.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
 
 /*  lead  */
 
@@ -29,6 +29,7 @@
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__lists/intro__lists.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span/intro__span.css);
 
 /*  photo-grid  */
 
@@ -40,7 +41,6 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/_height/place_height.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__links/place__links.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);

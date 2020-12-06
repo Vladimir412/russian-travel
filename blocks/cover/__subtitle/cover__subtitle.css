@@ -1,27 +1,14 @@
 .cover__subtitle {
-  width: 360px;
+  max-width: 360px;
   min-height: 66px;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   position: relative;
-  margin: auto;
-  top: 279px;
-}
-
-@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
-  .cover__subtitle {
-    top: 230px;
-  }
-}
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-  .cover__subtitle {
-    top: 145px;
-  }
+  margin: 11px auto 9px;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
@@ -30,6 +17,5 @@
     min-height: 48px;
     font-size: 14px;
     line-height: 16px;
-    top: 50px;
   }
 }

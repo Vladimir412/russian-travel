@@ -7,6 +7,9 @@
   box-sizing: border-box;
   margin: auto;
   margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 }
 

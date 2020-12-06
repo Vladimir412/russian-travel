@@ -9,14 +9,12 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .place {
-    min-height: 564px;
     grid-column-gap: 32px;
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .place {
-    min-height: 434px;
     grid-column-gap: 29px;
     grid-row-gap: 48px;
   }
@@ -24,7 +22,6 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .place {
-    min-height: 886px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 32px;

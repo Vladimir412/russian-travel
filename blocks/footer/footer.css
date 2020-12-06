@@ -2,7 +2,6 @@
   max-width: 1184px;
   margin: auto;
   margin-top: 94px;
-  min-height: 18px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,7 +24,6 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .footer {
     width: 58.1%;
-    min-height: 310px;
     flex-direction: column;
     margin-left: 16px;
     margin-top: 66px;
