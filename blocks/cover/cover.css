@@ -2,6 +2,8 @@
   max-width: 1184px;
   min-height: 740px;
   background-image: url(../../images/background.png);
+  color: #FFFFFF;
+  text-decoration: none;
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
