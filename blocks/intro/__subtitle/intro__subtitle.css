@@ -8,3 +8,10 @@
   font-size: 16px;
   line-height: 26px;
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .intro__subtitle {
+    min-width: 720px;
+    max-width: 984px;
+  }
+}

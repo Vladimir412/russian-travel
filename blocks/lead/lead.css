@@ -3,12 +3,13 @@
   margin: 57px auto 93px;
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .lead {
     width: 90.6%;
-    margin: 48px auto 92px;
+    margin: 48px 48px 92px;
   }
 }
 

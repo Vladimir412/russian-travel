@@ -1,22 +1,25 @@
 .intro {
-  width: 984px;
-  /* width: 690px; */
+  max-width: 984px;
   margin: auto;
   margin-bottom: 96px;
+  border: 1px solid red;
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   .intro {
-    margin-left: calc(100vw - 67% - (290px));
+    max-width: 1160px;
+    min-width: 690px;
+    margin: 0 48px 0;
     margin-bottom: 91px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .intro {
     min-width: 720px;
-    margin: auto;
+    /* width: 93.7%; */
+    margin: 0 24px 0;
   }
 }
 
