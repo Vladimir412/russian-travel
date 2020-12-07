@@ -1,7 +1,7 @@
 .intro {
-  width: 100%;
-  max-width: 690px;
-  margin-left: calc((100vw - 54%) - 452px);
+  width: 984px;
+  /* width: 690px; */
+  margin: auto;
   margin-bottom: 96px;
 }
 

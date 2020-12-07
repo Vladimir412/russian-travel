@@ -1,5 +1,5 @@
 .cover__title {
-  width: 560px;
+  max-width: 560px;
   opacity: 1;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
